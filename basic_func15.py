@@ -8,7 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return a+b
+    return a%b
 
-b  = main(3,2)
+b  = main(23,5)
 print(b)
