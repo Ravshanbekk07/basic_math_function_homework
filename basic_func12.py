@@ -7,4 +7,7 @@ def main(a):
     Returns:
         float: the result
     '''
-    return
+    return round(a,2)
+
+b = main(6.453)
+print(b)
